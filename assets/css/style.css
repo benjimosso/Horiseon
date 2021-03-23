@@ -9,7 +9,7 @@ body {
 }
 
 /*  change class header for tag header */
-/* header section begeins*/
+/* header begeins*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +42,7 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*header section ends*/
+/*header ends*/
 
 a {
     color: #ffffff;
