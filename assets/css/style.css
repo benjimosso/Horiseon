@@ -53,7 +53,8 @@ a {
 p {
     font-size: 16px;
 }
-/* delete background image and add it in the html code. I've also reduced 
+/*                  IDEA
+delete background image and add it in the html code. I've also reduced 
 the image size for better performance. */
 .hero {
     height: 800px;
