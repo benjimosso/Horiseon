@@ -79,7 +79,14 @@ the image size for better performance. */
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+   }
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 /* Move 3 classes inside parent "content" to mantain logical order, Also
 I grouped classes atrubutes in logical order */
@@ -91,15 +98,6 @@ I grouped classes atrubutes in logical order */
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,16 +106,6 @@ I grouped classes atrubutes in logical order */
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,14 +115,6 @@ I grouped classes atrubutes in logical order */
     color: #ffffff;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* delted 3 classes and used parent "benefits" for parameters*/
 .benefits {
     margin-right: 20px;
