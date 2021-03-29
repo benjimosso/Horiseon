@@ -53,9 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-/*                  IDEA
-delete background image and add it in the html code. I've also reduced 
-the image size for better performance. */
+/* reduced the image size for better performance. */
 .hero {
     height: 800px;
     width: 100%;
@@ -88,25 +86,8 @@ the image size for better performance. */
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Move 3 classes inside parent "content" to mantain logical order, Also
-I grouped classes atrubutes in logical order */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.social-media-marketing {
+/* Create class contextbox for 3 elements.*/
+.Contentbox {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
