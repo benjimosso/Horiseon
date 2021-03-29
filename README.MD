@@ -1,6 +1,6 @@
 # DESCRIPTION
 ### In this assigment I changed the structure of the HTML and CSS code. 
-### The changes can be seen:
+### This changes can be seen:
     - The use of HTML Semantic elements.
     - Logical order for the Structure of the HTML and CSS code. 
     - Cleaning of extra code.
